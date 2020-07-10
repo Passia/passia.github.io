@@ -1,0 +1,752 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background-color: lightgray;
+}
+
+                                                            /*  Global  */
+.container{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+
+                                                            /*  header  */
+header{
+    background: black;
+    color: white;
+    padding-top: 10px;
+    min-height: 70px;
+    border-bottom: 3px solid lightgrey;
+}
+#headers{
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+#headers .header{
+    float: left;
+    width: 25%;
+    min-height: 70px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0;
+}
+#headers #post{
+    width: 33%;
+}
+#headers #logo{
+    width: 19%;
+}
+#headers #date{
+    width: 22%;
+}
+#headers #gif figure{
+    margin: 0;
+    width: 100%;
+}
+#headers .header img{
+    width: 50px;
+}
+#headers .header #flag{
+    width: 125px;
+}
+#headers .header h1{
+    margin-top: 0px;
+    font-size: 25px;
+}
+#headers .header p a{
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: lowercase;
+    font-size: 17px;
+}
+#headers .header p a:hover{
+    font-size: 18px;
+}
+#headers .header input[type="search"]{
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+    padding-left: 10px;
+    height: 25px;
+    width: 60%;
+}
+#headers .header input[type="submit"]{
+    background-color: white;
+    color: black;
+    height: 25px;
+    border: 1px solid black;
+}
+#headers .header input[type="submit"]:hover{
+    cursor: pointer;
+}
+#headers #gif figure{
+    width: 90%;
+    margin: auto;
+}
+#headers #post span{
+    display: block;
+    line-height: .5em;
+}
+
+                                                            /* section one */
+#one{
+    min-height: 400px;
+}
+nav#main{
+    position: absolute;
+    left: 40%;
+    overflow: hidden;
+    max-width: 685px;
+}
+#one #A .container{
+    float: right;
+    width: 70%;
+    min-height: 400px;
+    overflow: hidden;
+    background-color: black;
+}
+.slideshow{
+    width: 100%;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+}
+.slideshow-item{
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    opacity: 0;
+    animation: cycleImages 41s infinite;
+}
+.slideshow #bg{
+    background-color: white;
+}
+.slideshow-item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    animation: zoom 41s infinite;
+}
+
+.slideshow-item:nth-child(1),
+.slideshow-item:nth-child(1) img{
+    animation-delay: 0s;
+}
+.slideshow-item:nth-child(2),
+.slideshow-item:nth-child(2) img{
+    animation-delay: 10s;
+}
+.slideshow-item:nth-child(3),
+.slideshow-item:nth-child(3) img{
+    animation-delay: 20s;
+}
+.slideshow-item:nth-child(4),
+.slideshow-item:nth-child(4) img{
+    animation-delay: 30s;
+}
+.slideshow-item img#bg1{
+    object-fit: none;
+    margin: auto;
+}
+.slideshow-item-text{
+    min-width: 60%;
+    min-height: 15vh;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateY(-50%);
+    transform: translateX(-50%);
+    padding: 0;
+}
+.slideshow-item #b-g{
+    background-color: black;
+    opacity: .8;
+}
+.slideshow-item-text h5{
+    width: 100%;
+    font-size: 3rem;
+    padding: 0;
+    text-align: center;
+    margin: auto;
+    overflow: hidden;
+}
+#one #B .container{
+    float: left;
+    width: 30%;
+    background-color:white;
+    min-height: 400px;
+    margin: 0;
+    padding: 0;
+}
+section#one a{
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+.slideshow-item #b-g:hover{
+    background: transparent;
+}
+section#one .slideshow #bg a:hover,
+section#one .slideshow .color:hover{
+    color: black;
+}
+section#one .slideshow-item h5.color:hover{
+    color: black;
+}
+section#one div#galerry{
+    height: 40px;
+    padding-top: 20px;
+    text-align: center;
+}
+section#one div#galerry a{
+    color: black;
+    font-size: 20px;
+}
+section#one div#galerry a:hover{
+    font-size: 22px;
+}
+#one ul {
+    padding: 0;
+    margin: 0;
+}
+nav#main{
+    position: absolute;
+    top: 9.2rem;
+}
+nav li{
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+li#current a{
+    font-weight: 1500;
+    color: black;
+}
+nav#main li a:hover{
+    font-weight: bolder;
+    font-size: 17px;
+    color: black;
+}
+
+/* member area section */
+form{
+    text-align: center;
+}
+form div#who{  
+    margin-bottom: 1px;
+}
+form select{
+    width: 70%;
+    font-family: 'Times New Roman', Times, serif;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid gray;
+    background: none;
+    text-transform: uppercase;
+    height: 25px;
+    padding: 0;
+    color: gray;
+    cursor: pointer;
+    -webkit-appearance: button;
+}
+#one #B form .effect{
+    width: 70%;
+    position: relative;
+    height: 50px;
+    margin: 10px auto 0 auto;
+    overflow: hidden;
+}
+.effect input{
+    font-size: 80%;
+    width: 99%;
+    height: 45%;
+    color: black;
+    padding-top: 25px;
+    padding-bottom: 0px;
+    border: none;
+    outline: none;
+}
+.effect .content-name{
+    color: gray;
+}
+.effect label {
+    position: absolute;
+    bottom: 0px;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    border-bottom: 1px solid gray;
+}
+.effect label::after{
+    content:"";
+    position: absolute;
+    left: 0px;
+    bottom: -1px;
+    height: 100%;
+    width: 100%;
+    border-bottom: 3px solid black;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+}
+.content-name {
+    position: absolute;
+    bottom: 1px;
+    left: 0px;
+    transition: all 0.3s ease;
+}
+.effect input:focus + .label-name .content-name, 
+.effect input:valid + .label-name .content-name{
+    transform: translateY(-120%);
+    font-size: 14px;
+    color: black;
+}
+.effect input:focus + .label-name::after,
+.effect input:valid + .label-name::after{
+    transform: translateX(0%);
+}
+form #button_1{
+    height: 30px;
+    background: gray;
+    border: 0;
+    color: black;
+    width: 70%;
+    align-content: center;
+    margin-top: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    cursor: pointer;
+}
+form div#forgot{
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+form div#forgot a{
+    font-size: 12px;
+    color: black;
+}
+form div#forgot a:hover{
+    font-size: 13px;
+}
+#Member-area{
+    margin-top: 10px;
+}
+#one #B #Member-area h2,
+#one #B #Member-area p{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+#one #B #Member-area h2{
+    font-size: 25px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#one #B #Member-area p{
+    font-size: 17px;
+    margin-top: 5px;
+    margin-bottom: 7px;
+}
+
+                                                            /* Section 2 */
+#two{
+    width: 100%;
+}
+#two #nse{
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+.nse{
+    margin-left: 12px;
+    margin-bottom: 0;
+    float: left;
+    text-align: center;
+    width: 30%;
+    min-height: 270px;
+    padding: 10px;
+}
+#two #nse #survey{
+    background-color: gray;
+    opacity: .9;
+    box-shadow: 0 0 30px lightgray;
+    height: 280px;
+}
+.nse h4{
+    text-transform: uppercase;
+}
+#two #news a:hover{
+    font-size: 17px;
+}
+#two #survey div form{
+    width: 23%;
+    text-align: left;
+    margin: auto;
+}
+#two #survey div #submit{
+    margin-top: 7px;
+    width: 70%;
+    min-height: 30px;
+}
+.nse form select{
+    width: 50%;
+}
+
+                                                            /* Section 2 */
+#two #nse{
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+.nse{
+    margin-left: 12px;
+    margin-bottom: 0;
+    float: left;
+    text-align: center;
+    width: 30%;
+    min-height: 270px;
+    padding: 10px;
+}
+#two #nse #survey{
+    background-color: gray;
+    opacity: .9;
+    box-shadow: 0 0 30px lightgray;
+    max-height: 100%;
+}
+.nse h4{
+    text-transform: uppercase;
+}
+#two #news a:hover{
+    font-size: 17px;
+}
+#two #survey div form{
+    width: 23%;
+    text-align: left;
+    margin: auto;
+}
+#two #survey div #submit{
+    margin-top: 7px;
+    width: 70%;
+    min-height: 30px;
+}
+
+                                                        /* Registration area */
+#registration{
+    width: 100%;
+    background: url('../images/Slider3.jpg') no-repeat;
+    background-size: cover;
+    color: white;
+    min-height: 300px;
+    padding: 0;
+    border-top: 1px solid black;
+    opacity: .93;
+}
+#registration div{
+    margin: 0;
+    width: 100%;
+    min-height: 300px;
+    background-color: black;
+    opacity: .93;
+    text-align: center;
+    border-top: 1px solid black;
+}
+#registration div h1{
+    width: 100%;
+    min-height: 50px;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    font-size: 37px;
+}
+#registration div p{
+    width: 100%;
+    font-size: 20px;
+    margin-top: 0px;
+}
+#registration div #register {
+    padding-top: 7px;
+    padding-bottom: 0px;
+    border: 2px solid white;
+    max-width: 350px;
+    margin: auto;
+    min-height: 45px;
+    border-radius: 50px;
+    background-color: gray;
+}
+#registration div #register:hover {
+    background-color: white;
+    cursor: pointer;
+}
+#registration div #register a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+
+                                                        /* partners logo section */
+#partners{
+    min-height: 200px;
+    background-color: white;
+    text-align: center;
+    width: 99.9%;
+    border-top: 1px solid white;
+}
+#partners h4{
+    text-transform: uppercase;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+#partners #partner{
+    width: 100%;
+    margin: 0px;
+}
+#partners #partner ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    min-height: 50px;
+}
+#partners li{
+    margin-left: 20px;
+    display: inline;
+    overflow: hidden;
+    min-height: 500px;
+}
+
+                                                /* copyright section */
+#copyright{
+    min-height: 250px;
+    text-align: center;
+    background-color: gray;
+    border-top: 2px solid gray;
+}
+#copyright #right-one{
+    width: 100%;
+    overflow: hidden;
+}
+#copyright #right-one .right{
+    float: left;
+    width: 25%;
+    margin-left: 0;
+    text-align: left;
+}
+#copyright #right-two{
+    float: none;
+}
+#copyright h4{
+    color: white;
+    background-color: black;
+    opacity: .8;
+    overflow: hidden;
+    min-height: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 0;
+}
+.right span.shift{
+    margin-left: 26px;
+}
+.right h3{
+    width: 80%;
+    margin-bottom: 10px;
+    border-bottom: 2px solid black;
+}
+.right p{
+    margin-top: 0;
+}
+#outside{
+    position: fixed;
+    top: 90%;
+    left: 90%;
+    background-color: white;
+    height: 50px;
+    border-radius: 30px;
+}
+#outside img{
+    width: 50px;
+}
+
+                                /* This concerns the slide show images */
+@keyframes cycleImages{
+    25%{
+        opacity: 1;
+    }
+    40%{
+        opacity: 0;
+    }
+}
+@keyframes zoom{
+    100%{
+        transform: scale(1.3);
+    }
+}
+
+                                        /* media queries */
+
+@media(max-width: 1278px){
+    #two #nse #survey{
+        height: 300px;
+    }
+}
+
+@media(max-width: 1170px){
+    nav#main{
+        left: 20%;
+    }
+    #one #A .container{
+        float: none;
+        width: 100%;
+    }
+    #one #B .container{
+        float: none;
+        width: 100%;
+    }
+    .nse{
+        float: none;
+        width: 100%;
+        min-height: 270px;
+        padding: 10px;
+        margin: 0;
+    }
+    #two #nse #survey{
+        background-color: gray;
+        opacity: .9;
+        height: 270px;
+        margin: 0;
+    }
+    #two #survey div form{
+        width: 9%;
+    }
+    #two #nse .para{
+        width: 80%;
+        margin: auto;
+        margin-top: 20px;
+    }
+}
+
+@media(max-width: 1000px){
+    #headers #logo{
+        display: none;
+    }
+    #headers #post{
+        width: 49%;
+        padding: 0;
+    }
+    #headers #date{
+        width: 23%;
+    }
+    #headers #gif{
+        width: 26%;
+    }
+    #headers #post span{
+        display: block;
+        line-height: .5em;
+    }
+    #copyright #right-one .right{
+        float: none;
+        width: 80%;
+        margin: auto;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .right h3{
+        width: 100%;
+        margin-bottom: 5px;
+        text-align: left;
+    }
+    nav#main{
+        top: 8.8rem;
+    }
+}
+
+@media(max-width: 950px){
+    nav#main{
+        left: 9%;
+    }
+}
+
+@media(max-width: 945px){
+    #two #survey div form{
+        width: 15%;
+    }
+}
+
+@media(max-width: 910px){
+    nav#main{
+        top: 9.7rem;
+    }
+    #headers #post span{
+        line-height: .78em;
+    }
+}
+
+@media(max-width: 760px){
+    #headers .header{
+        float: none;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 0;
+        border: 2px solid red;
+    }
+    #headers #post{
+        width: 100%;
+        padding: 0;
+    }
+    #headers #date{
+        width: 100%;
+    }
+    #headers #gif{
+        width: 100%;
+    }
+    nav#main{
+        display: none;
+    }
+    #copyright #right-one .right{
+        text-align: left;
+    }
+}
+
+@media(max-width: 550px){
+    #two #survey div form{
+        width: 30%;
+    } 
+}
+
+@media(max-width: 443px){
+    #registration{
+        min-height: 350px;
+    }
+    #registration div{
+        min-height: 350px;
+    }
+}
+
+@media(max-width: 375px){
+    #registration div #register {
+        max-width: 250px;
+    }
+    form select{
+        width: 85%;
+    }
+    #one #B form .effect{
+        width: 85%;
+    }
+    form #button_1{
+        width: 85%;
+    }
+    #outside{
+        left: 80%;
+    }
+    #copyright #right-one .right{
+        text-align: left;
+    }
+}
