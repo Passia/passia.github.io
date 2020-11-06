@@ -1,0 +1,73 @@
+.bg{
+  background-color: #393941;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 15px;
+  text-transform: uppercase;
+  height: 5vh;
+}
+.bg p{
+  margin: auto;
+}
+nav{
+  height: 8vh !important;
+}
+nav a.sidenav-trigger i{
+  color: #393941;
+}
+ul.left{
+  height: 8vh !important;
+  margin-left: 4vh !important;
+  width: 600px;
+}
+ul.left li{
+  height: 8vh !important;
+  margin: 0 8px 0 8px;
+}
+ul li a{
+  text-decoration:none;
+  color: #393941 !important;
+  font-size: 14px !important;
+  height: 8vh !important;
+  line-height: 7vh !important;
+  padding: 0 !important;
+  font-family: 'Times New Roman', Times, serif;
+}
+ul.right{
+  margin-left: 20% !important;
+  height: 8vh !important;
+  width: 400px !important;
+  padding-left: 15% !important;
+}
+ul.right li{
+  height: 8vh !important;
+  margin: 0 20px 0 20px;
+}
+ul.right li a i{
+  font-size: 15px !important;
+  line-height: 7vh !important;
+}
+nav .brand-logo img{
+  width: 78px;
+  height: 24px;
+}
+
+@media(max-width: 990px){
+  ul.right{
+    margin-left: 50% !important;
+  }
+}
+@media(max-width: 630px){
+  ul.right{
+    margin-left: 40% !important;
+  }
+}
+@media(max-width: 630px){
+  ul.right{
+    margin-left: 40% !important;
+  }
+}
+@media(max-width: 492px){
+  ul.right{
+    margin-left: 30% !important;
+  }
+}
