@@ -1,3 +1,6 @@
+*{
+  font-family: 'Times New Roman', Times, serif;
+}
 .bg{
   background-color: #393941;
   font-family: 'Times New Roman', Times, serif;
@@ -49,6 +52,184 @@ ul.right li a i{
 nav .brand-logo img{
   width: 78px;
   height: 24px;
+}
+
+div.modal-content{
+  border: 2px solid red;
+}
+
+/* The part containing the video*/
+
+video{
+  width: 100%;
+}
+div.video{
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+div.video .center{
+  position: absolute;
+  z-index: 1
+}
+div.video .center div{
+  font-family: 'Times New Roman', Times, serif;
+}
+div.video .center div a{
+  width: 8rem !important;
+  background-color: white;
+  color: #393941;
+}
+div.video .center div a:hover{
+  background-color: #393941;
+  color: white;
+}
+
+div.scrubs{
+  min-height: 5vh;
+  padding: 1.5rem;
+  font-size: 1.2rem;
+  word-spacing: .2rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+/* Section1 */
+div#section1{
+  width: 96% !important;
+  border: 2px solid green;
+  padding: 0 !important;
+}
+#section1 .row{
+  border: 2px solid blue;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+#section1 .row .m4 {
+  height: 60vh;
+  background-image: url('../images/womens-tala-lab-coat-white1.jpg');
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#section1 .row .m4 div{
+  border: 2px solid yellow;
+}
+#section1 .row .m4 a{
+ color: #393941;
+ text-decoration: none;
+ font-family: monotype corsiva !important;
+}
+#section1 .row .m4 a{
+  color: #393941;
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif !important;
+}
+.pricing1{
+  min-height: 45vh;
+  position: relative;
+  transition: 0.7s ease-in;
+}
+#pic1{
+  background: url('../images/blob\ \(1\).jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#pic1:hover{
+  background: url('../images/Wool-Underscrub-Black_2_500x.jpg');
+  background-size: cover;
+  background-position: center;
+}
+#pic2{
+  background: url('../images/Womens-Arura-Top_navy-1.jpg') no-repeat;
+  background-size: cover;
+}
+#pic2:hover{
+  background: url('../images/Wool-Underscrub-Black_2_500x.jpg');
+  background-size: cover;
+}
+#pic3{
+  background: url('../images/Womens-Catarina-Top_black-1.jpg') no-repeat;
+  background-size: cover;
+}
+#pic3:hover{
+  background: url('../images/Wool-Underscrub-Black_2_500x.jpg');
+  background-size: cover;
+}
+.new{
+  background: gray;
+  width: fit-content;
+  border-radius: 2px;
+  padding: .3rem .7rem .3rem .7rem;
+}
+.pricing1 .price{
+  border: 2px solid yellow;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  display: none;
+}
+.pricing1 .price .bottom{
+  position: relative;
+  border: 2px solid black;
+  width: 100%;
+}
+.pricing1 .price .bottom .prix{
+  border: 2px solid red;
+  min-height: 10vh;
+  position: absolute;
+  background: white;
+  opacity: .8;
+  width: 100%;
+}
+.pricing1 .price .prix h4{
+  border: 2px solid black;
+  text-align: center;
+}
+.pricing1 .price .prix ul{
+  border: 2px solid orange;
+  min-height: 4vh;
+  margin-top: 4px;
+}
+.pricing1 .price .prix ul li{
+  display: inline;
+  margin-left: 1rem;
+  padding: .5rem;
+  
+}
+.pricing1 .price .prix a{
+  color: black;  
+}
+.pricing1 .price .quick-buy{
+  background: white;
+  opacity: .9;
+  border: 1px solid darkturquoise;
+  min-height: 7vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pricing1 .price .quick-buy p{
+  border: 2px solid indigo;
+  overflow: hidden;
+  text-align: center;
+  width: fit-content;
+}
+.pricing1 .price .quick-buy a{
+  color: black;
+}
+.pricing1 a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 1rem;
 }
 
 @media(max-width: 990px){
