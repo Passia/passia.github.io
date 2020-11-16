@@ -1,63 +1,6 @@
-*{
-  font-family: 'Times New Roman', Times, serif;
-}
-.bg{
-  background-color: #393941;
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 15px;
-  text-transform: uppercase;
-  height: 5vh;
-}
-.bg p{
-  margin: auto;
-}
-nav{
-  height: 8vh !important;
-}
-nav a.sidenav-trigger i{
-  color: #393941;
-}
-ul.left{
-  height: 8vh !important;
-  margin-left: 4vh !important;
-  width: 600px;
-}
-ul.left li{
-  height: 8vh !important;
-  margin: 0 8px 0 8px;
-}
-ul li a{
-  text-decoration:none;
-  color: #393941 !important;
-  font-size: 14px !important;
-  height: 8vh !important;
-  line-height: 7vh !important;
-  padding: 0 !important;
-  font-family: 'Times New Roman', Times, serif;
-}
-ul.right{
-  margin-left: 20% !important;
-  height: 8vh !important;
-  width: 400px !important;
-  padding-left: 15% !important;
-}
-ul.right li{
-  height: 8vh !important;
-  margin: 0 20px 0 20px;
-}
-ul.right li a i{
-  font-size: 15px !important;
-  line-height: 7vh !important;
-}
-nav .brand-logo img{
-  width: 78px;
-  height: 24px;
-}
-
-div.modal-content{
-  border: 2px solid red;
-}
-
+@import url('minor/header.css');
+@import url('minor/swipeable.css');
+@import url('minor/footer.css');
 /* The part containing the video*/
 
 video{
@@ -130,137 +73,6 @@ div#section1{
   min-height: 50vh;
 }
 
-.column .pictures{
-    min-height: 60vh;
-    position: relative;
-
-    background-size: cover !important;
-    background-position: center !important;
-}
-.column .height{
-  min-height: 80vh !important;
-}
-.column #test-swipe-1 #pictures1{
-    background: url('../images/86d3ebc0-teams-lp-3_10aj0ak000000000000028.png') no-repeat;
-}
-.column #test-swipe-2 #pictures1{
-  background: url('../images/Leon-Pocket-Scrub-Top_winning-blue-2_500x.jpg') no-repeat;
-}
-.column #test-swipe-3 #pictures1{
-  background: url('../images/86d3ebc0-teams-lp-3_10aj0ak000000000000028.png') no-repeat;
-}
-.column #test-swipe-4 #pictures1{
-background: url('../images/Leon-Pocket-Scrub-Top_winning-blue-2_500x.jpg') no-repeat;
-}
-.column #test-swipe-5 #pictures1{
-  background: url('../images/86d3ebc0-teams-lp-3_10aj0ak000000000000028.png') no-repeat;
-}
-.column #test-swipe-6 #pictures1{
-background: url('../images/Leon-Pocket-Scrub-Top_winning-blue-2_500x.jpg') no-repeat;
-}
-.column #test-swipe-7 #pictures1{
-  background: url('../images/86d3ebc0-teams-lp-3_10aj0ak000000000000028.png') no-repeat;
-}
-.column #test-swipe-8 #pictures1{
-background: url('../images/Leon-Pocket-Scrub-Top_winning-blue-2_500x.jpg') no-repeat;
-}
-.column #test-swipe-9 #pictures1{
-  background: url('../images/86d3ebc0-teams-lp-3_10aj0ak000000000000028.png') no-repeat;
-}
-.column #test-swipe-0 #pictures1{
-background: url('../images/Leon-Pocket-Scrub-Top_winning-blue-2_500x.jpg') no-repeat;
-}
-.column #test-1 #pictures1{
-  background: url('../images/86d3ebc0-teams-lp-3_10aj0ak000000000000028.png') no-repeat;
-}
-.column #swipe-1 #pictures1{
-  background: url('../images/86d3ebc0-teams-lp-3_10aj0ak000000000000028.png') no-repeat;
-}
-.column #pictures2{
-    background: url('../images/women-raincoat-1-front_6f09330f-308b-454e-bd64-9eef6f040963.jpg') no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-.column #pictures3{
-    background: url('../images/Womens-Catarina-Top_black-1.jpg') no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-.column .pictures .buttom{
-    position: absolute;
-    bottom: 0px;
-    width: 100%;
-    display: none;
-}
-.column .pictures .buttom .sizes{
-    display: none;
-}
-.column .pictures .buttom .quick-buy{
-    width: 100%;
-    height: 6vh;
-    background: white;
-    opacity: .9;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.column:hover .buttom{
-    display: block;
-}
-.column .pictures .buttom .quick-buy a{
-    text-decoration: none;
-    color: #393941;
-    font-family: monotype corsiva;
-}
-.column .pictures .buttom .quick-buy a:hover{
-    text-decoration: underline;
-}
-.column .pricing{
-    margin-top: 15px;
-}
-.column .pricing a{
-    text-decoration: none;
-    color: #393941;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
-    font-size: 14px;
-}
-.column .pricing div.span{
-    margin-bottom: 5px;
-}
-.column .pricing div a span{
-    font-weight: normal;
-}
-.column .pricing div.spacing{
-    line-height: 18px;
-    font-size: 14px;
-    margin-bottom: 5px;
-}
-.column .pricing div.available{
-    color: gray;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 15px;
-    border: 2px solid red;
-}
-.column ul.tabs{
-    visibility: hidden;
-    width: fit-content;
-}
-.column:hover ul.tabs{
-    visibility: visible;
-}
-.column ul.tabs li{
-    width: 17px !important;
-    height: 17px !important;
-    border-radius: 17px !important;
-    display: inline-block;
-    margin: 0 1px;
-}
-.column ul.tabs li.indicator{
-  display: none;
-}
-
 /* Section 2 starts here*/
 
 #section2{
@@ -325,7 +137,6 @@ background: url('../images/Leon-Pocket-Scrub-Top_winning-blue-2_500x.jpg') no-re
 }
 #section3 .section3 #female{
   min-height: 60vh;
-  border: 2px solid red;
 
   display: flex !important;
   justify-content: center !important;
@@ -347,6 +158,126 @@ background: url('../images/Leon-Pocket-Scrub-Top_winning-blue-2_500x.jpg') no-re
   text-align: center;
   font-size: 16px;
 }
+
+/* section4 */
+
+#section4{
+  width: 100%;
+  margin-top: 8vh;
+}
+#section4 .section4{
+  width: 92%;
+  margin: auto;
+}
+#section4 .section4 #male{
+  min-height: 60vh;
+
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+#section4 .section4 #male div#ma div{
+  word-spacing: 3px;
+  letter-spacing: 3px;
+  font-size: 20px;
+}
+#section4 .section4 #male div#ma p{
+  text-align: center;
+}
+#section4 .section4 #male div#ma p a{
+  text-decoration: underline;
+  font-family: monotype corsiva;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  font-size: 16px;
+}
+
+/* section5 */
+
+#section5{
+  width: 100%;
+  margin-top: 6vh;
+}
+#section5 .section5{
+  width: 85%;
+  margin: auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#section5 .section5 .gif{
+  min-height: 80vh !important;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#section5 .section5 .gif div{
+  text-align: center;
+}
+#section5 .section5 .gif div h3{
+  font-size: 20px;
+  letter-spacing: 3px;
+  word-spacing: 5px;
+  text-transform: uppercase;
+}
+#section5 .section5 .gif div .below{
+  margin-bottom: 6px;
+}
+#section5 .section5 .gif div h4 a{
+  text-decoration: underline;
+  font-family: monotype corsiva;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  font-size: 16px;
+}
+#section5 .section5 #gif{
+  background: url('../images/HP_Module_Dekar_Hidmo_600x.gif');
+  background-position: center top;
+  min-height: 80vh !important;
+}
+
+/* section6 */
+
+#section6{
+  width: 100%;
+  margin-top: 6vh;
+}
+#section6 #image{
+  width: 90%;
+  margin: auto;
+  min-height: 80vh;
+  background: url('../images/Group_Unisex_aboutuspage-sm_2000x_e6a71835-5bef-4cad-9263-37268385c35b_1920x.jpg') no-repeat;
+  background-size: cover;
+}
+#section6 #threads{
+  width: 365px;
+  height: 60px;
+  margin: auto;
+  text-align: center;
+  font-size: 50px;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  word-spacing: 9px;
+  margin-top: 6vh;
+  background: url('../images/threads-for-threads_365x_457c6c81-78c4-4420-9294-3e7dc9474691_1200x.png') no-repeat;
+  background-size: contain;
+}
+#section6 #paragraph{
+  margin-top: 8vh;
+  margin-bottom: 15vh;
+}
+#section6 #paragraph p{
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: #393941;
+  margin: 0;
+}
+
 @media(max-width: 990px){
   ul.right{
     margin-left: 50% !important;

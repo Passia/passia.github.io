@@ -1,0 +1,119 @@
+/* footer */
+
+footer{
+    width: 100%;
+    background: #222228;
+  }
+  footer #footer{
+    width: 100%;
+  }
+  footer #footer #footer1{
+    width: 90%;
+    margin: 40px auto 30px auto;
+  }
+  footer #footer #footer1 #subfoot #hgroup h1{
+    color: white;
+    font-size: 33px;
+    letter-spacing: 3px;
+    line-height: 1;
+    text-transform: uppercase;
+    margin-bottom: 0;
+  }
+  footer #footer #footer1 #subfoot #hgroup h1#margin{
+    margin-top: 0;
+    margin-bottom: 0.5vh;
+  }
+  footer #footer #footer1 #subfoot #hgroup h4{
+    color: white;
+    font-size: 15px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-weight: 0;
+    margin-bottom: 0;
+  }
+  #media ul{
+    margin: 0;
+  }
+  #media ul li{
+    display: inline;
+    margin-right: 12px;
+  }
+  #media a{
+    text-decoration: none;
+    color: #909093;
+    font-size: 13px;
+  }
+  #media a:hover{
+    color: white;
+    font-size: 15px;
+  }
+  footer #footer #footer1 #subfoot1 .row{
+    margin-top: 4vh;
+    margin-bottom: 0;
+  }
+  footer #footer #footer1 #subfoot1 .row .col{
+    padding: 0;
+  }
+  footer #footer #footer1 #subfoot1 .row .col ul{
+    margin: 0;
+  }
+  .collapsible{
+    border: none !important;
+  }
+  .collapsible li{
+    color: white;
+  }
+  .collapsible li div.collapsible-header{
+    background-color: #222228;
+    text-transform: uppercase;
+  }
+  .collapsible li div.collapsible-body{
+    padding: 0;
+  }
+  .collapsible li div.collapsible-body ul li{
+    padding-top: 0px !important;
+  }
+  .collapsible li div.collapsible-body ul li a{
+    text-decoration: none;
+    color: white !important;
+    margin-top: 0px !important;
+  }
+  footer #footer #footer2{
+    width: 100%;
+    border-top: 1px solid gray;
+  }
+  #footer2 #foot{
+    width: 90%;
+    margin: 30px auto 40px auto;
+  
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "rights mbeng";
+  }
+  
+  #footer2 #foot #rights p{
+    color: #909093;
+    font-weight: bold;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+  }
+  #footer #foot #rights p#reserved{
+    font-size: 13px;
+  }
+  #footer #foot #rights p#span{
+    font-size: 11px;
+  }
+  #footer #foot #rights p#span span:hover{
+    color: white;
+  }
+  #footer2 #mbeng{
+    color: white;
+    text-transform: uppercase;
+    text-align: right;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+  }

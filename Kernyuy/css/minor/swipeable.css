@@ -1,0 +1,129 @@
+.column .pictures{
+    min-height: 60vh;
+    position: relative;
+
+    background-size: cover !important;
+    background-position: center !important;
+}
+.column .height{
+  min-height: 80vh !important;
+}
+.column #test-swipe-1 #pictures1{
+    background: url('../images/86d3ebc0-teams-lp-3_10aj0ak000000000000028.png') no-repeat;
+}
+.column #test-swipe-2 #pictures1{
+  background: url('../images/Leon-Pocket-Scrub-Top_winning-blue-2_500x.jpg') no-repeat;
+}
+.column #test-swipe-3 #pictures1{
+  background: url('../images/86d3ebc0-teams-lp-3_10aj0ak000000000000028.png') no-repeat;
+}
+.column #test-swipe-4 #pictures1{
+background: url('../images/Leon-Pocket-Scrub-Top_winning-blue-2_500x.jpg') no-repeat;
+}
+.column #test-swipe-5 #pictures1{
+  background: url('../images/86d3ebc0-teams-lp-3_10aj0ak000000000000028.png') no-repeat;
+}
+.column #test-swipe-6 #pictures1{
+background: url('../images/Leon-Pocket-Scrub-Top_winning-blue-2_500x.jpg') no-repeat;
+}
+.column #test-swipe-7 #pictures1{
+  background: url('../images/86d3ebc0-teams-lp-3_10aj0ak000000000000028.png') no-repeat;
+}
+.column #test-swipe-8 #pictures1{
+background: url('../images/Leon-Pocket-Scrub-Top_winning-blue-2_500x.jpg') no-repeat;
+}
+.column #test-swipe-9 #pictures1{
+  background: url('../images/86d3ebc0-teams-lp-3_10aj0ak000000000000028.png') no-repeat;
+}
+.column #test-swipe-0 #pictures1{
+background: url('../images/Leon-Pocket-Scrub-Top_winning-blue-2_500x.jpg') no-repeat;
+}
+.column #test-1 #pictures1{
+  background: url('../images/86d3ebc0-teams-lp-3_10aj0ak000000000000028.png') no-repeat;
+}
+.column #swipe-1 #pictures1{
+  background: url('../images/86d3ebc0-teams-lp-3_10aj0ak000000000000028.png') no-repeat;
+}
+.column #pictures2{
+    background: url('../images/women-raincoat-1-front_6f09330f-308b-454e-bd64-9eef6f040963.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.column #pictures3{
+    background: url('../images/Womens-Catarina-Top_black-1.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.column .pictures .buttom{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    display: none;
+}
+.column .pictures .buttom .sizes{
+    display: none;
+}
+.column .pictures .buttom .quick-buy{
+    width: 100%;
+    height: 6vh;
+    background: white;
+    opacity: .9;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.column:hover .buttom{
+    display: block;
+}
+.column .pictures .buttom .quick-buy a{
+    text-decoration: none;
+    color: #393941;
+    font-family: monotype corsiva;
+}
+.column .pictures .buttom .quick-buy a:hover{
+    text-decoration: underline;
+}
+.column .pricing{
+    margin-top: 15px;
+}
+.column .pricing a{
+    text-decoration: none;
+    color: #393941;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+.column .pricing div.span{
+    margin-bottom: 5px;
+}
+.column .pricing div a span{
+    font-weight: normal;
+}
+.column .pricing div.spacing{
+    line-height: 18px;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.column .pricing div.available{
+    color: gray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+.column ul.tabs{
+    visibility: hidden;
+    width: fit-content;
+}
+.column:hover ul.tabs{
+    visibility: visible;
+}
+.column ul.tabs li{
+    width: 17px !important;
+    height: 17px !important;
+    border-radius: 17px !important;
+    display: inline-block;
+    margin: 0 1px;
+}
+.column ul.tabs li.indicator{
+  display: none;
+}

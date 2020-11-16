@@ -1,0 +1,103 @@
+@import url('minor/header.css');
+@import url('minor/swipeable.css');
+@import url('minor/footer.css');
+
+/* navigation */
+
+.bigger{
+    min-height: 10vh;
+}
+
+/* section1 */
+
+#bg{
+    min-height: 60vh;
+    background: url('../images/DESKTOP_20200306_Content_Core_U_8fae7e2f-caa2-49ca-bafc-63ee039f8e83_2000x.jpg');
+    background-size: cover;
+}
+
+/* section2 */
+
+#section2 #Women{
+    margin-top: 8vh;
+    border: 2px solid red;
+}
+
+#Women #test-swipe-1 #pictures1{
+    background: url('../images/2139e9be-womens-rafaela-scrub-top_10ak0ak000000000000028.png');
+}
+#Women #test-swipe-2 #pictures1{
+    background: url('../images/86d3ebc0-teams-lp-3_10aj0ak000000000000028.png');
+}
+#Women #test-swipe-3 #pictures1{
+    background: url('../images/Catarina-one-pocket-scrub-top_Moss-1_750x750.jpg');
+}
+
+#Women #test-1 #pictures1{
+    background: url('../images/Catarina-one-pocket-scrub-top_Moss-1_750x750.jpg');
+}
+#Women #test-2 #pictures1{
+    background: url('../images/blob\ \(1\).jpg');
+}
+
+#Women #swipe-1 #pictures1{
+    background: url('../images/BURGUNDY_Collection_EditorialTile-XOCHI1.jpg') no-repeat;
+    background-size: contain !important;
+}
+#Women #swipe-2 #pictures1{
+    background: url('../images/blob\ \(1\).jpg');
+}
+
+#Women #level1-sub1 #pictures1{
+    background: url('../images/Salta-Underscrub-Burgundy_1_750x750.jpg');
+}
+#Women #level1-sub2 #pictures1{
+    background: url('../images/86d3ebc0-teams-lp-3_10aj0ak000000000000028.png');
+}
+#Women #level1-sub3 #pictures1{
+    background: url('../images/Catarina-one-pocket-scrub-top_Moss-1_750x750.jpg');
+}
+#Women #level2-sub1 #pictures1{
+    background: url('../images/Womens-Lemons-1_750x750.jpg');
+}
+#Women #level2-sub2 #pictures1{
+    background: url('../images/blob\ \(1\).jpg');
+}
+#Women #level3-sub1 #pictures1{
+    background: url('../images/Womens-Wool-Mock-Neck-Underscrub_navy-1_750x750.jpg') no-repeat;
+    background-size: contain !important;
+}
+#Women #level3-sub2 #pictures1{
+    background: url('../images/blob\ \(1\).jpg');
+}
+
+#Women #layer1-sub1 #pictures1{
+    background: url('../images/Womens-mawe-maternity-top_neon-blue-1_750x750.jpg');
+}
+#Women #layer1-sub2 #pictures1{
+    background: url('../images/86d3ebc0-teams-lp-3_10aj0ak000000000000028.png');
+}
+#Women #layer1-sub3 #pictures1{
+    background: url('../images/Catarina-one-pocket-scrub-top_Moss-1_750x750.jpg');
+}
+#Women #layer2-sub1 #pictures1{
+    background: url('../images/Swell-Waterbottle_1_750x750.jpg');
+}
+#Women #layer2-sub2 #pictures1{
+    background: url('../images/blob\ \(1\).jpg');
+}
+#Women #layer3-sub1 #pictures1{
+    background: url('../images/Chennai-Jumpsuit_black-1_750x750.jpg') no-repeat;
+    background-size: contain !important;
+}
+#Women #layer3-sub2 #pictures1{
+    background: url('../images/blob\ \(1\).jpg');
+}
+
+#Women #last-sub1 #pictures1{
+    background: url('../images/BURGUNDY_Collection_EditorialTile-XOCHI2.jpg') no-repeat;
+    background-size: contain !important;
+}
+#Women #last-sub2 #pictures1{
+    background: url('../images/blob\ \(1\).jpg');
+}
