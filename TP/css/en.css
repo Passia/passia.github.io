@@ -1,0 +1,694 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background-color: white;
+}
+
+/* global */
+div{
+    overflow: hidden;
+}
+section{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+/* header */
+
+header{
+    width: 100%;
+    overflow: hidden;
+}
+header div.container{
+    width: 100%;
+}
+header .container #top{
+    width: 100%;
+}
+
+header #top .top{
+    float: left;
+    line-height: 50px;
+    min-height: 35px;
+    width: 20%;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: black;  
+}
+
+header #top .top{
+    width: 20%;
+}
+
+header #top .top:hover{
+    background-color: white;
+}
+header #top #search:hover{
+    background-color: black;
+}
+
+header #top #search input#look{
+    background-color: black;
+    color: lightgray;
+    font-style: italic;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid lightgray;
+}
+
+header #top #search i{
+    color: lightgray;
+}
+
+header #top #empty{
+    width: 40%;
+}
+header #top #empty p{
+    min-height: 35px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    background-color: lightgray;
+}
+
+header #top a{
+    text-decoration: none;
+    color: gray;
+    font-weight: bold;
+}
+
+header #top a:hover{
+    color: black;
+}
+
+header #top #hover{
+    background-color: white;
+}
+
+header #top #hover a{
+    color: black;
+}
+
+header #container{
+    width: 85%;
+    margin: auto;
+}
+header .container .outer{
+    float: left;
+    width: 50%;
+    min-height: 110px;
+}
+
+header #container .inline{
+    float: left;
+}
+
+header #container .outer #inline{
+    width: 75%;
+}
+
+header #container .inline span{
+    display: block;
+}
+header #container .inline span.right{
+    text-align: right;
+    color: grey;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header #container .inline span.small{
+    text-transform: uppercase;
+    font-size: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header #container .inline span#big{
+    font-weight: bold;
+    text-transform: uppercase;
+    color: darkred;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif
+}
+
+header .container #main{
+    width: 80%;
+    margin: auto;
+    padding-top: 30px;
+    min-height: 70px;
+}
+
+header #col{
+    background-color: black;
+    border-bottom: 2px solid darkred;
+}
+
+header .container #main a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: gray;
+    font-weight: bold;
+}
+
+header .container #main ul{
+    padding: 0;
+    margin: 0;
+}
+
+header .container #main ul li{
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header .container #main #title{
+    float: left;
+}
+
+header .container #main #title h1{
+    color: gray;
+    margin: 0;
+}
+header .container #main span.large{
+    font-size: larger;
+}
+header .container #main span#color{
+    color: darkred;
+} 
+header .container #main nav{
+    margin-top: 10px;
+    float: right;
+}
+
+header .container #main a#index{
+    color: darkred;
+}
+header .container #main a:hover{
+    color: darkred;
+}
+
+/* Section with the video */
+section#vid #deo{
+    height: 720px;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+section#vid #deo #video{
+    position: absolute;
+    width: 100%;
+}
+#vid #deo #video video{
+    width: 100%;
+}
+#vid #deo #ontop{
+    position: absolute;
+    width: 100%;
+    margin-top: 300px;
+} 
+#vid #deo #ontop span{
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    color: darkred;
+    font-family: 'Times New Roman', Times, serif;
+} 
+
+/* Section of the minister */
+#minister #mini {
+    width: 100%;
+}
+#minister #mini #ster{
+    width: 100%;
+    margin-bottom: 20px;
+}
+#minister #mini #ster h3{
+    width: 100%;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#minister #mini #ster #picture{
+    width: 60%;
+    margin: auto;
+}
+#minister #mini #ster #picture div#ture{
+    float: right;
+    min-height: 305px;
+    padding-top: 30px;
+}
+#minister #mini #ster #picture div#pic{
+    float: left;
+}
+#minister #mini #ster #picture div span{
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    display: block;
+}
+
+#minister #mini #ster #picture div span#name{
+    color: darkred;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 23px;
+    text-transform: uppercase;
+}
+
+#minister #mini article{
+    width: 100%;
+}
+article #missions h3{
+    color: white;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 10px;
+    min-height: 33px;
+    padding-top: 2px;
+    width: 100%;
+    font-weight: bold;
+    font-size: 22px;
+    background-color: black;
+    opacity: none;
+}
+#minister #mini article #missions{
+    width: 100%;
+    background-color: black;
+    opacity: .8;
+    padding-bottom: 10px;
+}
+article #missions #hundred{
+    width: 100%;
+}
+article #missions #hundred div{
+    width: fit-content;
+    margin: auto;
+    padding-top: 5px;
+    min-height: 40px;
+} 
+
+article #missions #hundred span{
+    margin-left: 30px;
+}
+article a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+article a:hover{
+    color: darkred;
+}
+
+/* Partners section */
+#partners{
+    min-height: 200px;
+    background-color: white;
+    text-align: center;
+    width: 99.9%;
+    border-top: 1px solid white;
+}
+#partners h4{
+    text-transform: uppercase;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+#partners #partner{
+    width: 100%;
+    margin: 0px;
+}
+#partners #partner ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    min-height: 50px;
+}
+#partners li{
+    margin-left: 20px;
+    display: inline;
+    overflow: hidden;
+    min-height: 500px;
+}
+
+                                                /* copyright section */
+#copyright{
+    min-height: 250px;
+    text-align: center;
+    background-color: gray;
+    border-top: 2px solid gray;
+}
+#copyright #right-one{
+    width: 100%;
+    overflow: hidden;
+}
+#copyright #right-one .right{
+    float: left;
+    width: 25%;
+    margin-left: 0;
+    text-align: left;
+}
+#copyright #right-two{
+    float: none;
+}
+#copyright h4{
+    color: white;
+    background-color: black;
+    overflow: hidden;
+    min-height: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 0;
+}
+.right span.shift{
+    margin-left: 26px;
+}
+.right h3{
+    width: 80%;
+    margin-bottom: 10px;
+    border-bottom: 2px solid black;
+}
+.right p{
+    margin-top: 0;
+}
+
+                        /* this is the donate blood page */
+/* the part containing only background */                      
+div#bg{
+    width: 50%;
+    min-height: 400px;
+    overflow: hidden;
+    background: url('../images/armwnotext1.jpg') no-repeat;
+    background-size: cover;
+    float: left;
+}
+
+/* Firts section after the header */
+
+section#donate #don{
+    width: 100%;
+}
+#donate #don .nate{
+    padding-top: 4.5rem;
+    float: left;
+    width: 50%;
+}
+#donate #don #pad{
+    padding-top: 3.5rem;
+}
+#donate #don #nate{
+    background-color: lightgray;
+}
+
+#donate #don #nate h1{
+    width: 75%;
+    margin: 0 auto 2rem auto;
+    font-size: 3.5em;
+    color: darkred;
+}
+#donate #don #nate #background{
+    width: 75%;
+    margin: 0 auto 2rem auto;
+}
+#donate #don #nate #background #ground{
+    height: 280px;
+    background: url('../images/20180109-diabetes.jpg');
+    background-size: cover;
+}
+
+#donate #don #pad #img{
+    width: 75%;
+    height: 120px;
+    margin: 0 auto 6px auto;
+}
+#donate #don #pad #img img{
+    height: 110px;
+}
+#donate #don #pad #text{
+    width: 75%;
+    margin: auto;
+}
+#donate #don #pad #text #background{
+    height: 280px;
+    background: url('../images/blood_donation_bank_-_shutterstock.jpg');
+    background-size: cover;
+}
+
+#donate #don #nate #background #back{
+    margin-top: 1.5rem;
+}
+#donate #don #nate #background #back p{
+    font-size: 22px;
+}
+#donate #don #pad #text #typed{
+    margin-top: 1.5rem;
+}
+#donate #don #pad #text #typed p{
+    font-size: 22px;
+}
+
+/* second section after the header */
+
+#con{
+    width: 100%;
+}
+section#ready{
+    background-color: black;
+    opacity: .8;
+}
+section#ready #rea{
+    width: 100%;
+}
+
+section#ready #rea h1{
+    color: white;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0;
+    font-size: 25px;
+}
+section#ready #rea h2{
+    color: white;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 0;
+}
+
+/* Member area section */
+
+#member{
+    float: right;
+    width: 50%;
+}
+#member #mem {
+    background-color:white;
+    min-height: 380px;
+    margin: 0;
+    padding: 20px 0 0 0;
+}
+
+form{
+    text-align: center;
+}
+form div.who{  
+    margin: auto;
+    width: 80%;
+}
+form div.who div.whos{
+    display: inline-flex;
+    width: 20%;
+    height: 100%;
+    margin-bottom: 0;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: right;
+    color: gray;
+}
+form div#who,
+form div#whom{
+    margin-bottom: 20px;
+}
+form select{
+    width: 79%;
+    font-family: 'Times New Roman', Times, serif;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid gray;
+    background: none;
+    text-transform: uppercase;
+    height: 30px;
+    padding: 0;
+    color: gray;
+    cursor: pointer;
+    margin: 0;
+    -webkit-appearance: button;
+}
+form .effect{
+    width: 70%;
+    position: relative;
+    height: 50px;
+    margin: 0px auto 20px auto;
+    overflow: hidden;
+}
+.effect input{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 99%;
+    height: 45%;
+    color: black;
+    padding-top: 25px;
+    padding-bottom: 0px;
+    border: none;
+    outline: none;
+}
+.effect .content-name{
+    color: gray;
+    font-size: 17px;
+    font-weight: bold;
+}
+.effect label {
+    position: absolute;
+    bottom: 0px;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    border-bottom: 1px solid gray;
+}
+.effect label::after{
+    content:"";
+    position: absolute;
+    left: 0px;
+    bottom: -1px;
+    height: 100%;
+    width: 100%;
+    border-bottom: 3px solid black;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+}
+.content-name {
+    position: absolute;
+    bottom: 1px;
+    left: 0px;
+    transition: all 0.3s ease;
+}
+.effect input:focus + .label-name .content-name, 
+.effect input:valid + .label-name .content-name{
+    transform: translateY(-120%);
+    font-size: 14px;
+    color: black;
+}
+.effect input:focus + .label-name::after,
+.effect input:valid + .label-name::after{
+    transform: translateX(0%);
+}
+form #button_1{
+    height: 30px;
+    background: gray;
+    border: 0;
+    color: black;
+    width: 70%;
+    align-content: center;
+    margin-top: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+/* fichier personnel */
+
+section#design{
+    width: 100%;
+    min-height: 500px;
+    overflow: hidden;                  
+}
+
+section#design .design{
+    width: 70%;
+    overflow: hidden;
+    /* background: url('../images/shutterstock_256955077.jpg') no-repeat 50px 2px; */
+    position: relative; 
+    min-height: 500px;
+}
+
+section#design .design #table{
+    width: 80%;
+    min-height: 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+section#design #images1{
+    width: 30%;
+    min-height: 500px;
+    float: right;
+    background: url('../images/Business-professions-doctor-female-african-american.jpg') no-repeat 0 -30px;
+    background-size: cover;
+}
+section#design .design #table table{
+    margin-top: 5%;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+section#design .design #table thead tr td{
+    background: linear-gradient(top, #3c3c3c 0%, #000000 100%);
+    background: -webkit-linear-gradient(top, #3c3c3c 0%, #000000 100%);
+    color: white;
+    font-weight: bold;
+}
+section#design .design #table thead tr td,
+section#design .design #table tbody tr td,
+section#design .design #table thead tr th{
+    background: linear-gradient(top, darkred 0%, #000000 100%);
+    background: -webkit-linear-gradient(top, darkred 0%, #000000 100%);
+    padding: 15px;
+    font-size: 15px;
+    color: white;
+    text-transform: uppercase;
+    border: 1px solid #080808;
+}
+section#design .design #table thead tr th{
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+section#question{
+    background-color: white;
+}
+section#question #quest{
+    width: 100%;
+}
+section#question #quest h2{
+    color: black;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+}
+div#con #member #mem #Member-area p.error{
+    text-align: center;
+    color: darkred;
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+}
